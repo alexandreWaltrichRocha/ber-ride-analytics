@@ -4,6 +4,8 @@ Projeto de análise de dados de mobilidade urbana desenvolvido utilizando Python
 
 O objetivo é identificar padrões de utilização de corridas por meio de análises exploratórias, visualizações de dados e um dashboard interativo.
 
+https://ber-ride-analytics-9nar4drd6y36vvnphdw9tf.streamlit.app/
+
 ---
 
 # 📌 Objetivos
