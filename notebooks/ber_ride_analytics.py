@@ -14,7 +14,7 @@ os.makedirs('./visualizacoes', exist_ok=True)
 # ============================
 # 1. Carregamento do dataset
 # ============================
-df = pd.read_csv('/kaggle/input/uber-ride-analytics-dashboard/ncr_ride_bookings.csv')
+df = pd.read_csv('../data/ncr_ride_bookings.csv')
 
 df['datetime'] = pd.to_datetime(df['Date'] + ' ' + df['Time'])
 df['day'] = df['datetime'].dt.day_name()
